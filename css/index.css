@@ -1,0 +1,739 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/EncodeSansSemiExpanded-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\000039}}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  /*font-size: 16px;*/
+  line-height: 1.7; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\0000315}}
+.width-100 {
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\0000318}}
+.margin-0 {
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\0000321}}
+.header {
+  width: 100%;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\0000324}}
+  .header .menu {
+    display: table;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    font-family: 'Open Sans'; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\0000330}}
+    .header .menu .bg_menu {
+      position: fixed;
+      top: -3px;
+      left: 0;
+      right: 0;
+      height: 116px;
+      z-index: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\0000338}}
+    .header .menu .box-footer-menu {
+      width: 100%;
+      text-align: center;
+      position: fixed;
+      top: 113px;
+      z-index: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\0000344}}
+      .header .menu .box-footer-menu img.bg-footer-menu {
+        width: 310px;
+        padding-right: 24px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\0000349}}
+    .header .menu .logo {
+      max-height: 100px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\0000352}}
+    .header .menu .nav > li > a:focus, .header .menu .nav > li > a:hover {
+      background-color: rgba(0, 0, 0, 0); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\0000355}}
+    .header .menu .navbar .navbar-nav {
+      display: inline-block;
+      float: none;
+      vertical-align: top; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\0000359}}
+      .header .menu .navbar .navbar-nav a.header-link {
+        padding: 20px 20px !important;
+        font-size: 28px;
+        color: #006b33;
+        text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\0000366}}
+    .header .menu .navbar .navbar-collapse {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.5);
+      position: absolute;
+      width: 100vw;
+      top: 113px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\0000373}}
+    .header .menu .navbar-brand {
+      float: left;
+      height: 50px;
+      padding: 15px 15px;
+      font-size: 18px;
+      line-height: 20px;
+      width: calc(100vw - 145px);
+      margin-left: 63px;
+      display: table; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\0000382}}
+      .header .menu .navbar-brand .logo {
+        margin: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\0000386}}
+    .header .menu .navbar-toggle .icon-bar {
+      background: #000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\0000395}}
+.home_about .content_about h3 {
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\0000397}}
+  .home_about .content_about h3 span {
+    color: #598527;
+    text-transform: uppercase;
+    font-size: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003102}}
+  .home_about .content_about h3 img {
+    max-height: 30px;
+    margin-top: -18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003107}}
+.home_about .content_about p.about {
+  color: #474944;
+  max-width: 513px;
+  margin: auto;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003116}}
+.article {
+  width: 100%;
+  background: #eceaeb;
+  padding: 4rem;
+  overflow: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003121}}
+  .article .box-title {
+    font-weight: 800;
+    font-size: 4.5rem;
+    color: #598527;
+    text-align: center;
+    position: relative;
+    border-bottom: 0.1rem solid #c4c4c4;
+    line-height: 4rem;
+    padding: 0;
+    text-transform: uppercase;
+    margin-bottom: 4rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003132}}
+    .article .box-title span {
+      background: #eceaeb;
+      padding: 0 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003137}}
+  .article .card {
+    width: calc((100% - 2 * 6rem) / 3);
+    padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003140}}
+    .article .card .caption {
+      background: #eceaeb; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003142}}
+      .article .card .caption h4 {
+        text-align: center;
+        margin-bottom: 3rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003146}}
+      .article .card .caption p {
+        padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003151}}
+  .article .card:not(:last-child) {
+    margin-right: 6rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003157}}
+.article-story {
+  width: 100%;
+  background: #fff;
+  padding: 4rem;
+  overflow: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003162}}
+  .article-story .box-title {
+    font-weight: 800;
+    font-size: 4.5rem;
+    color: #598527;
+    text-align: center;
+    position: relative;
+    border-bottom: 0.1rem solid #c4c4c4;
+    line-height: 4rem;
+    padding: 0;
+    text-transform: uppercase;
+    margin-bottom: 4rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003173}}
+    .article-story .box-title span {
+      background: #e695bd;
+      padding: 0 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003178}}
+  .article-story .card {
+    width: calc((100% - 2 * 6rem) / 3);
+    padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003181}}
+    .article-story .card .caption {
+      background: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003183}}
+      .article-story .card .caption h4 {
+        text-align: center;
+        margin-bottom: 3rem;
+        color: #598527;
+        font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003189}}
+      .article-story .card .caption p {
+        padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003194}}
+  .article-story .card:not(:last-child) {
+    margin-right: 6rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003199}}
+.btn-detail {
+  background: #598527;
+  color: #fff;
+  padding: 3px 13px;
+  border-radius: 13px;
+  margin-top: 4rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003207}}
+.btn-readmore {
+  color: #cc9c5c;
+  font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003213}}
+.article-feature {
+  padding: 0 40rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003216}}
+  .article-feature .article1 {
+    overflow: auto;
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003220}}
+    .article-feature .article1 .img-arc-1 {
+      width: 60%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003223}}
+    .article-feature .article1 .post-box {
+      position: absolute;
+      top: 50%;
+      left: 80%;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      display: inline;
+      width: 40%;
+      text-align: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003232}}
+      .article-feature .article1 .post-box .title_about {
+        color: #598527;
+        font-weight: bold;
+        margin-bottom: 2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003240}}
+  .article-feature .article2 {
+    overflow: auto;
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003244}}
+    .article-feature .article2 .img-arc-2 {
+      width: 60%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003247}}
+    .article-feature .article2 .post-box {
+      width: 40%;
+      position: absolute;
+      top: 50%;
+      left: 20%;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      text-align: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003255}}
+      .article-feature .article2 .post-box .title_about {
+        color: #598527;
+        font-weight: bold;
+        margin-bottom: 2rem; }
+
+@media screen and (max-width: 1500px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003266}}
+  .article-feature {
+    padding: 0 30rem; } }
+@media screen and (max-width: 1300px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003272}}
+  .article-feature {
+    padding: 0 15rem; } }
+@media screen and (max-width: 958px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003278}}
+  .article-feature {
+    padding: 0 5rem; } }
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003284}}
+  .article .card, .article-story .card {
+    width: 100%;
+    margin-right: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003287}}
+  .article .card .caption p, .article-story .card .caption p {
+    padding: 0 10rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003290}}
+  .article-feature {
+    padding: 4rem; } }
+@media screen and (max-width: 747px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003296}}
+  .article-feature {
+    padding: 4rem;
+    position: unset; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003300}}
+    .article-feature .article1 .img-arc-1 {
+      display: none;
+      width: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003304}}
+    .article-feature .article1 .post-box {
+      position: unset;
+      top: 10rem;
+      text-align: justify;
+      width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003312}}
+    .article-feature .article2 {
+      overflow: unset;
+      position: unset; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003315}}
+      .article-feature .article2 .img-arc-2 {
+        display: none;
+        width: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003319}}
+      .article-feature .article2 .post-box {
+        position: relative;
+        top: 10rem;
+        text-align: justify;
+        width: 100%;
+        left: 50%; } }
+@media screen and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003332}}
+  .article .card, .article-story .card {
+    width: 100%;
+    margin-right: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003335}}
+  .article .card .caption p, .article-story .card .caption p {
+    padding: 0; } }
+@media screen and (max-width: 300px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003342}}
+  .article-feature .article1 {
+    margin-bottom: 7rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003349}}
+.article .thumbnail {
+  padding: 0;
+  border: none;
+  background: #eceaeb; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003354}}
+.article-story .thumbnail {
+  padding: 0;
+  border: none;
+  background: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003360}}
+footer {
+  background: #598527;
+  text-align: center;
+  color: #fff;
+  height: 5rem;
+  line-height: 5rem;
+  font-weight: 300; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003368}}
+.contact-info {
+  padding: 4rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003370}}
+.contact-info .logo {
+  margin-top: 10rem;
+  margin-right: 4rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003373}}
+.contact-info .info {
+  color: #454743;
+  margin-bottom: 8rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003376}}
+.contact-info .fb {
+  margin-top: 4rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003378}}
+.contact-info .fb iframe {
+  border: 1px solid #67a331 !important;
+  -webkit-box-shadow: 1.5px 1.5px 2px #67a331;
+          box-shadow: 1.5px 1.5px 2px #67a331; }
+
+@media screen and (max-width: 1150px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003382}}
+  .contact-info .logo {
+    margin-right: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003384}}
+  .contact-info .info {
+    float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003386}}
+  .contact-info .fb {
+    float: left !important; } }
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003389}}
+  .contact-info .logo {
+    width: 30%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003391}}
+  .contact-info .info {
+    width: 70%; } }
+@media screen and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003394}}
+  .contact-info .logo {
+    width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003396}}
+  .contact-info .info {
+    width: 100%; } }
+@media screen and (max-width: 400px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003399}}
+  .contact-info .info {
+    width: 100%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003401}}
+.customer-slide {
+  width: 100%;
+  background: #fff;
+  padding: 4rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003405}}
+  .customer-slide .box-title {
+    font-weight: 800;
+    font-size: 4.5rem;
+    color: #598527;
+    text-align: center;
+    position: relative;
+    border-bottom: 0.14rem solid #c4c4c4;
+    line-height: 4rem;
+    padding: 0;
+    text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003415}}
+    .customer-slide .box-title span {
+      background: #fff;
+      padding: 0 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003420}}
+  .customer-slide #mixedSlider, .customer-slide #buyerSlider {
+    margin-top: 4rem;
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003423}}
+    .customer-slide #mixedSlider .MS-content, .customer-slide #buyerSlider .MS-content {
+      white-space: nowrap;
+      overflow: hidden;
+      margin: 0 5%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003427}}
+      .customer-slide #mixedSlider .MS-content .item, .customer-slide #buyerSlider .MS-content .item {
+        display: inline-block;
+        width: 100%;
+        position: relative;
+        vertical-align: top;
+        overflow: hidden;
+        height: 100%;
+        white-space: normal;
+        padding: 0 10px;
+        text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003437}}
+        .customer-slide #mixedSlider .MS-content .item .imgTitle, .customer-slide #buyerSlider .MS-content .item .imgTitle {
+          position: relative;
+          text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003440}}
+          .customer-slide #mixedSlider .MS-content .item .imgTitle .blogTitle, .customer-slide #buyerSlider .MS-content .item .imgTitle .blogTitle {
+            margin: -5rem 0;
+            text-align: center;
+            letter-spacing: 2px;
+            color: #598527;
+            /* font-style: italic; */
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.5);
+            width: 100%;
+            bottom: 0;
+            font-weight: bold;
+            font-size: 1.5rem;
+            text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003454}}
+          .customer-slide #mixedSlider .MS-content .item .imgTitle .pro_name, .customer-slide #buyerSlider .MS-content .item .imgTitle .pro_name {
+            color: #333;
+            text-align: center;
+            margin: -3rem 0;
+            width: 100%;
+            bottom: 0;
+            font-weight: bold;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            position: absolute; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003465}}
+          .customer-slide #mixedSlider .MS-content .item .imgTitle img, .customer-slide #buyerSlider .MS-content .item .imgTitle img {
+            height: 15rem;
+            width: 15rem;
+            border-radius: 15rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003471}}
+        .customer-slide #mixedSlider .MS-content .item .btn_buy_now, .customer-slide #buyerSlider .MS-content .item .btn_buy_now {
+          font-size: 1.3rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003475}}
+        .customer-slide #mixedSlider .MS-content .item p.price, .customer-slide #buyerSlider .MS-content .item p.price {
+          font-size: 1.3rem;
+          margin: 4rem 10px 0 5px;
+          text-indent: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003480}}
+        .customer-slide #mixedSlider .MS-content .item p.buyer_des, .customer-slide #buyerSlider .MS-content .item p.buyer_des {
+          font-size: 1.3rem;
+          margin: 8rem 10px 0 5px;
+          text-indent: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003485}}
+        .customer-slide #mixedSlider .MS-content .item input.input_pro_discount, .customer-slide #buyerSlider .MS-content .item input.input_pro_discount {
+          height: 25px;
+          width: 55px;
+          border-radius: 3px;
+          border: solid 1px #aaa;
+          text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003492}}
+        .customer-slide #mixedSlider .MS-content .item button.btn, .customer-slide #buyerSlider .MS-content .item button.btn {
+          font-size: 1.3rem;
+          background: #598527;
+          color: #fff;
+          padding: 3px 10px;
+          margin-top: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003499}}
+        .customer-slide #mixedSlider .MS-content .item a, .customer-slide #buyerSlider .MS-content .item a {
+          float: right;
+          margin: 0 20px 0 0;
+          font-size: 16px;
+          font-style: italic;
+          color: rgba(173, 0, 0, 0.82);
+          font-weight: bold;
+          letter-spacing: 1px;
+          -webkit-transition: linear 0.1s;
+          transition: linear 0.1s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003509}}
+        .customer-slide #mixedSlider .MS-content .item b, .customer-slide #buyerSlider .MS-content .item b {
+          color: #598527; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003515}}
+    .customer-slide #mixedSlider .MS-controls button, .customer-slide #buyerSlider .MS-controls button {
+      position: absolute;
+      border: none;
+      background-color: transparent;
+      outline: 0;
+      font-size: 50px;
+      top: 5rem;
+      color: rgba(0, 0, 0, 0.4);
+      -webkit-transition: 0.15s linear;
+      transition: 0.15s linear; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003524}}
+      .customer-slide #mixedSlider .MS-controls button img, .customer-slide #buyerSlider .MS-controls button img {
+        width: 5rem;
+        height: 5rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003529}}
+    .customer-slide #mixedSlider .MS-controls button:hover, .customer-slide #buyerSlider .MS-controls button:hover {
+      color: rgba(0, 0, 0, 0.8); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003532}}
+    .customer-slide #mixedSlider .MS-controls .btn-slider-buyer, .customer-slide #buyerSlider .MS-controls .btn-slider-buyer {
+      top: 14rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003539}}
+.how_chose {
+  background-size: 100% 100%;
+  min-height: 200px;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 20px;
+  display: table;
+  padding-top: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003547}}
+  .how_chose .box-title {
+    font-weight: 800;
+    font-size: 4.5rem;
+    color: #598527;
+    text-align: center;
+    position: relative;
+    border-bottom: 0.14rem solid #c4c4c4;
+    line-height: 4rem;
+    padding: 0;
+    text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003557}}
+    .how_chose .box-title span {
+      background: #eceaeb;
+      padding: 0 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003562}}
+  .how_chose p.title {
+    color: #598527;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 53px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003568}}
+  .how_chose p.des {
+    margin-bottom: 125px; }
+
+@media (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003576}}
+  #buyerSlider .MS-controls button, #mixedSlider .MS-controls button {
+    font-size: 30px; } }
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003582}}
+  #buyerSlider .MS-controls button, #mixedSlider .MS-controls button {
+    font-size: 20px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003587}}
+#buyerSlider .MS-controls .MS-left, #mixedSlider .MS-controls .MS-left {
+  left: 0px; }
+
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003592}}
+  #buyerSlider .MS-controls .MS-left, #mixedSlider .MS-controls .MS-left {
+    left: -10px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003597}}
+#buyerSlider .MS-controls .MS-right, #mixedSlider .MS-controls .MS-right {
+  right: 0px; }
+
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003602}}
+  #buyerSlider .MS-controls .MS-right, #mixedSlider .MS-controls .MS-right {
+    right: -10px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003608}}
+.detail_banner_slider .indicators_detail {
+  width: 50%;
+  right: 0;
+  bottom: 30%;
+  left: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003613}}
+  .detail_banner_slider .indicators_detail li {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    overflow: hidden; }
+
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003623}}
+  .customer-slide #buyerSlider .MS-content .item, .customer-slide #mixedSlider .MS-content .item {
+    width: 50%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003630}}
+  .header .menu .navbar .navbar-nav a.header-link {
+    padding: 47px 15px !important;
+    font-size: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003635}}
+  .header .menu .navbar .navbar-collapse {
+    background: rgba(255, 255, 255, 0);
+    position: absolute;
+    width: 100vw;
+    top: 0;
+    left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003644}}
+  .header .btn-link-banner {
+    top: 40%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003646}}
+    .header .btn-link-banner p.title1 {
+      font-size: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003650}}
+    .header .btn-link-banner p.link span {
+      font-size: 50px; } }
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003662}}
+  .header .menu .navbar .navbar-nav a.header-link {
+    padding: 46px 15px !important;
+    font-size: 28px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003667}}
+  .header .menu .navbar .navbar-collapse {
+    background: rgba(255, 255, 255, 0);
+    position: inherit;
+    width: unset; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003675}}
+  .customer-slide #buyerSlider .MS-content .item, .customer-slide #mixedSlider .MS-content .item {
+    width: 25%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003684}}
+.bg-menu {
+  position: relative;
+  color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003688}}
+  .bg-menu .img-bg-pro1 {
+    width: 100vw;
+    height: 100vh; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003693}}
+  .bg-menu .img-bg-pro2 {
+    position: fixed;
+    top: 112px;
+    width: 100vw;
+    height: 100vh; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003700}}
+  .bg-menu .menu-product {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003706}}
+    .bg-menu .menu-product ul#menu > li {
+      float: left;
+      list-style-type: none;
+      position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003712}}
+    .bg-menu .menu-product label {
+      position: relative;
+      display: block;
+      padding: 0 18px 0 12px;
+      line-height: 3em;
+      -webkit-transition: background 0.3s;
+      transition: background 0.3s;
+      cursor: pointer;
+      font-size: 3rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003722}}
+    .bg-menu .menu-product label:after {
+      content: "^";
+      position: absolute;
+      display: block;
+      top: 95%;
+      right: 5px;
+      width: 0;
+      height: 0;
+      -webkit-transform: rotateX(180deg);
+              transform: rotateX(180deg); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003733}}
+    .bg-menu .menu-product input {
+      display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003735}}
+    .bg-menu .menu-product input:checked ~ ul.submenu {
+      max-height: 300px;
+      -webkit-transition: max-height 0.5s ease-in;
+      transition: max-height 0.5s ease-in; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003740}}
+    .bg-menu .menu-product ul.submenu {
+      max-height: 0;
+      padding: 0;
+      overflow: hidden;
+      list-style-type: none;
+      -webkit-transition: max-height 0.5s ease-out;
+      transition: max-height 0.5s ease-out;
+      position: absolute;
+      min-width: 100%;
+      text-align: center;
+      font-size: 3rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003752}}
+    .bg-menu .menu-product ul.submenu li a {
+      display: block;
+      padding: 12px;
+      color: #ddd;
+      text-decoration: none;
+      -webkit-transition: background .3s;
+      transition: background .3s;
+      white-space: nowrap; }
+
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003765}}
+  html {
+    font-size: 40%; } }
+@media screen and (max-width: 414px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003771}}
+  html {
+    font-size: 35%; } }
+@media screen and (max-width: 350px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003777}}
+  html {
+    font-size: 30%; } }
+@media screen and (max-width: 315px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/Hevina\/css\/index\.scss}line{font-family:\00003783}}
+  html {
+    font-size: 23%; } }
+
+/*# sourceMappingURL=index.css.map */
